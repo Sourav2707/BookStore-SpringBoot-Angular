@@ -1,0 +1,28 @@
+<div class="reg-form">
+    <ng-container *ngIf="!emailSent; else emailSentMessage">
+      
+      <form [formGroup]='regForm' (ngSubmit)="onSubmit()">
+        <div class="body-txt-2">
+            <h1>Register</h1>
+            <input class="formInputs" type="name" formControlName="name" placeholder="Full name as per PAN card" />
+            <input class="formInputs" type="phNo" formControlName="phNo" placeholder="Phone number" />
+            <input class="formInputs" type="email" formControlName="email" placeholder="Email" />
+            <input class="formInputs" type="password" formControlName="password" placeholder="Password" />
+            <div class="warning" *ngIf="isValid === false">
+                Please fill in all required fields and ensure valid input. Phone number should consist 10 digits, Password should have 1 capital letter, 1 special character, 1 number.
+              </div>
+            <div class="formButton">
+                <button class="button1" type="submit">Register</button>
+            <button class="button2" (click)="closeRegisterDialog()">Cancel</button>
+            </div>
+        </div>
+      </form>
+    </ng-container>
+    <ng-template #emailSentMessage>
+      <div class="body-txt-2">
+        <h1>Check your email</h1>
+        <button class = "cancel" (click)="closeRegisterDialog()">Cancel</button>
+      </div>
+    </ng-template>
+  </div>
+  

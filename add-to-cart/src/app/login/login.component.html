@@ -1,0 +1,15 @@
+<div class="login-container" routerLinkActive="active">
+    <form class="loginForm" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <h2>Login</h2>
+      <input class="input" type="email" formControlName="email" placeholder="Email" />
+      <input class="input" type="password" formControlName="password" placeholder="Password" />
+      <button class="submit" type="submit">Login</button>
+      <div class="warning" *ngIf="isValid">Email/password is incorrect</div>
+      <div class="warning" *ngIf="isLoggedIn">Login failed</div>
+    </form>
+    <div class="links">
+      <!-- <button class="links-1" routerLink="/forgot-password">Forgot Password?</button> -->
+      <button class="links-2" (click)="openLoginDialog()">Register Now</button>
+      <button class="links-2" (click)="closeLoginDialog()">Cancel</button>
+    </div>
+  </div>

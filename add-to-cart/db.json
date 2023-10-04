@@ -1,0 +1,246 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "title": "To Kill a Mockingbird",
+            "price": 10.99,
+            "description": "A classic novel by Harper Lee.",
+            "category": "electronics",
+            "image": "https://epqkkxb65h3.exactdn.com/wp-content/uploads/2023/02/m-2908.jpg",
+            "rating": {
+              "rate": 4.5,
+              "count": 1200
+            }
+          }
+          ,
+          {
+            "id": 2,
+            "title": "Pride and Prejudice",
+            "price": 9.99,
+            "description": "Jane Austen's timeless classic.",
+            "category": "electronics",
+            "image": "https://images.penguinrandomhouse.com/cover/9780141439518",
+            "rating": {
+              "rate": 4.6,
+              "count": 1500
+            }
+          },
+          {
+            "id": 3,
+            "title": "The Great Gatsby",
+            "price": 12.99,
+            "description": "F. Scott Fitzgerald's masterpiece.",
+            "category": "electronics",
+            "image": "https://images.penguinrandomhouse.com/cover/9780743273565",
+            "rating": {
+              "rate": 4.4,
+              "count": 900
+            }
+          },
+          {
+            "id": 4,
+            "title": "Dune",
+            "price": 15.99,
+            "description": "Frank Herbert's epic science fiction saga.",
+            "category": "fashion",
+            "image": "https://images.penguinrandomhouse.com/cover/9780441172719",
+            "rating": {
+              "rate": 4.7,
+              "count": 1800
+            }
+          },
+          {
+            "id": 5,
+            "title": "Neuromancer",
+            "price": 14.99,
+            "description": "William Gibson's cyberpunk classic.",
+            "category": "fashion",
+            "image": "https://images.penguinrandomhouse.com/cover/9780441569595",
+            "rating": {
+              "rate": 4.3,
+              "count": 950
+            }
+          }
+          ,
+          {
+            "id": 6,
+            "title": "The Martian",
+            "price": 11.99,
+            "description": "Andy Weir's gripping tale of survival on Mars.",
+            "category": "fashion",
+            "image": "https://images.penguinrandomhouse.com/cover/9780553418026",
+            "rating": {
+              "rate": 4.8,
+              "count": 2200
+            }
+          },
+          {
+            "id": 7,
+            "title": "The Girl with the Dragon Tattoo",
+            "price": 13.99,
+            "description": "A gripping mystery by Stieg Larsson.",
+            "category": "jewelery",
+            "image": "https://images.penguinrandomhouse.com/cover/9780307269751",
+            "rating": {
+              "rate": 4.5,
+              "count": 1100
+            }
+          },
+          {
+            "id": 8,
+            "title": "Gone Girl",
+            "price": 12.49,
+            "description": "Gillian Flynn's thrilling mystery novel.",
+            "category": "jewelery",
+            "image": "https://images.penguinrandomhouse.com/cover/9780307588371",
+            "rating": {
+              "rate": 4.2,
+              "count": 800
+            }
+          },
+          {
+            "id": 9,
+            "title": "The Da Vinci Code",
+            "price": 11.99,
+            "description": "Dan Brown's international bestseller.",
+            "category": "jewelery",
+            "image": "https://images.penguinrandomhouse.com/cover/9780307474278",
+            "rating": {
+              "rate": 4.0,
+              "count": 950
+            }
+          },
+          {
+            "id": 10,
+            "title": "1984",
+            "price": 11.99,
+            "description": "George Orwell's dystopian classic.",
+            "category": "novel",
+            "image": "https://images.penguinrandomhouse.com/cover/9780451524935",
+            "rating": {
+              "rate": 4.5,
+              "count": 1600
+            }
+          },
+          {
+            "id": 11,
+            "title": "The Catcher in the Rye",
+            "price": 10.99,
+            "description": "J.D. Salinger's iconic coming-of-age novel.",
+            "category": "electronics",
+            "image": "https://images.penguinrandomhouse.com/cover/9780316769488",
+            "rating": {
+              "rate": 4.3,
+              "count": 1200
+            }
+          },
+          {
+            "id": 12,
+            "title": "Brave New World",
+            "price": 13.49,
+            "description": "Aldous Huxley's vision of a future society.",
+            "category": "electronics",
+            "image": "https://cdn.kobo.com/book-images/6f07a0e9-8ca8-4b28-982c-7898ac591744/1200/1200/False/brave-new-world-79.jpg",
+            "rating": {
+              "rate": 4.4,
+              "count": 1050
+            }
+          },
+          {
+            "id": 13,
+            "title": "Foundation",
+            "price": 14.99,
+            "description": "Isaac Asimov's epic space opera.",
+            "category": "fashion",
+            "image": "https://images.penguinrandomhouse.com/cover/9780553293357",
+            "rating": {
+              "rate": 4.6,
+              "count": 1800
+            }
+          },
+          {
+            "id": 14,
+            "title": "Snow Crash",
+            "price": 12.99,
+            "description": "Neal Stephenson's cyberpunk adventure.",
+            "category": "fashion",
+            "image": "https://images.penguinrandomhouse.com/cover/9780553380958",
+            "rating": {
+              "rate": 4.2,
+              "count": 900
+            }
+          },
+          {
+            "id": 15,
+            "title": "Ender's Game",
+            "price": 11.49,
+            "description": "Orson Scott Card's classic tale of young geniuses.",
+            "category": "fashion",
+            "image": "https://m.media-amazon.com/images/I/81c2Rdl-TXL._AC_UF1000,1000_QL80_.jpg",
+            "rating": {
+              "rate": 4.7,
+              "count": 1500
+            }
+          },
+          {
+            "id": 16,
+            "title": "Sherlock Holmes: The Complete Novels and Stories",
+            "price": 19.99,
+            "description": "Arthur Conan Doyle's timeless detective tales.",
+            "category": "jewelery",
+            "image": "https://m.media-amazon.com/images/I/91XHDtSt7qL._AC_UF1000,1000_QL80_.jpg",
+            "rating": {
+              "rate": 4.8,
+              "count": 2000
+            }
+          },
+          {
+            "id": 17,
+            "title": "The Hound of the Baskervilles",
+            "price": 9.99,
+            "description": "Another thrilling Sherlock Holmes adventure.",
+            "category": "jewelery",
+            "image": "https://m.media-amazon.com/images/I/61zatwCfS5L._AC_UF1000,1000_QL80_.jpg",
+            "rating": {
+              "rate": 4.4,
+              "count": 950
+            }
+          },
+          {
+            "id": 18,
+            "title": "Murder on the Orient Express",
+            "price": 12.49,
+            "description": "Agatha Christie's classic mystery novel.",
+            "category": "jewelery",
+            "image": "https://images.penguinrandomhouse.com/cover/9780062073501",
+            "rating": {
+              "rate": 4.6,
+              "count": 1200
+            }
+          },
+          {
+            "id": 19,
+            "title": "The Road",
+            "price": 14.99,
+            "description": "Cormac McCarthy's haunting post-apocalyptic novel.",
+            "category": "electronics",
+            "image": "https://images.penguinrandomhouse.com/cover/9780307387899",
+            "rating": {
+              "rate": 4.3,
+              "count": 980
+            }
+          },
+          {
+            "id": 20,
+            "title": "Hyperion",
+            "price": 16.99,
+            "description": "Dan Simmons' intricate science fiction epic.",
+            "category": "fashion",
+            "image": "https://images.penguinrandomhouse.com/cover/9780553283686",
+            "rating": {
+              "rate": 4.5,
+              "count": 1050
+            }
+          }
+      ]
+}

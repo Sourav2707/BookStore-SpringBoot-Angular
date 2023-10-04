@@ -1,0 +1,58 @@
+.body-txt-2 { 
+    /* padding: 20px; */
+    margin-top: 50px;
+}
+.body-txt-2 h1 {
+    font-family: Papyrus, Fantasy;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 85px;
+    color: rgb(199, 199, 3);
+}
+.formInputs {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid rgb(199, 199, 3);
+  }
+.formInputs::placeholder {
+    color: rgb(199, 199, 3);
+}
+.button1{
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 155px;
+    border-radius: 5px;
+    border: 2px solid rgb(199, 199, 3);
+    color: rgb(199, 199, 3);
+    margin-left: 20px;
+}
+
+.button2{
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(199, 199, 3);
+    color: rgb(199, 199, 3);
+    margin-left: 20px;
+}
+
+.formButton {
+    margin-left: 140px;
+}
+.cancel {
+    margin-left: 210px;
+    margin-top: 55px;
+    width: 80px;
+    color: rgb(199, 199, 3);
+    border: 2px solid rgb(199, 199, 3);
+    border-radius: 5px;
+}
+.warning {
+    font-size: 10px;
+    color: red;
+    margin-left: 30px;
+}

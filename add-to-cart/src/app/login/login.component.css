@@ -1,0 +1,61 @@
+.loginForm {
+    box-shadow: 5px;
+    margin-right: 20px;
+    margin-top: 75px;
+  }
+  .loginForm h2 {
+    color: rgb(199, 199, 3);
+    font-size: 40px;
+    font-family: Papyrus, Fantasy;
+    font-weight: bold;
+  }
+  .login-container {
+    width: 430px;
+    height: 300px;
+    margin-left: 40px;
+    text-align: center;
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  button {
+      margin-top: 20px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 2px solid rgb(199, 199, 3);
+      color: rgb(199, 199, 3);
+      background-color: transparent;
+      font-weight: bold;
+  }
+  
+  .links button {
+    width: 100px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(199, 199, 3);
+    color: rgb(199, 199, 3);
+    background-color: transparent;
+    font-weight: bold;
+  }
+  .input {
+    border: 2px solid rgb(199, 199, 3);
+    transition: border-color 0.3s;
+  }
+  .input:focus {
+    border: 2px solid orange;
+  }
+  .submit {
+    width: 100px;
+  }
+  .warning {
+    color: red;
+  }

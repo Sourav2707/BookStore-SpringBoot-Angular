@@ -1,0 +1,43 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a (click)="filter('')">
+                <img src="https://veronicalanebooks.com/wp-content/uploads/2021/04/VEmF86yqEe.jpg" alt="">
+                <h6>All Geners</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('electronics')">
+                <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YG6OQE2SGRCGTIFWUL4VMRVVRU.jpg&w=1200" alt="">
+                <h6>Novel</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('fashion')">
+                <img src="https://www.paolini.net/wp-content/uploads/2020/10/FeaturedWebsite-FavScifiBooks-1024x688.jpg" alt="">
+                <h6>Sci-fi</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('jewelery')">
+                <img src="https://assets-prd.ignimgs.com/2023/05/24/best-mystery-books-slideshow-cover-1684970203361.jpg?width=1080" alt="">
+                <h6>Mystery</h6>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+                <p><strong>Price:</strong> ${{item.price}}</p>
+                <button class="btn" (click)=addtocart(item)>Add to cart</button>
+            </div>
+        </ng-container>
+
+    </div>
+</div>

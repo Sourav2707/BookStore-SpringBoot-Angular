@@ -1,0 +1,33 @@
+<header>
+    <div class="navbar navbar-dark shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-book">&nbsp;
+                
+            </i>
+            <strong style="font-size: 30px;">Globe Book Store</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+
+
+        </div>
+        <div>
+            <ng-container *ngIf="this.api.isLoggedIn; else loginButton">
+                <div class="logout">
+                    <div class="username">Welcome,{{this.username}}</div>
+                <button class="logout-button" (click) = "logout()">Logout</button>
+                </div>
+            </ng-container>
+            <ng-template #loginButton>
+                <div class="login-button">
+                    <button class="login-button" (click)="openLoginDialog()">Login</button>
+                </div>
+            </ng-template>
+        </div>
+        <button routerLink="cart" class="btn ">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
